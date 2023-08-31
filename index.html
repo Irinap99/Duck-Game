@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Proiect</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header_title">How many ducks?</h1>
+      <h2 class="header_subtitle">
+        Can you guess how many ducks are on the pond?
+      </h2>
+
+      <div class="game">
+        <div class="game-left">
+          <input type="number" class="number" />
+          <div class="buttons">
+            <button class="guess btn">Guess!</button>
+            <button class="again btn">Again!</button>
+          </div>
+        </div>
+        <div class="game-right">
+          <p class="message txt">The ducks are hiding...</p>
+          <p class="game-score txt">Score: <span class="score">25</span></p>
+          <p class="game-high-score txt">
+            Highscore: <span class="high-score">25</span>
+          </p>
+        </div>
+      </div>
+
+      <img src="img/ducks.png" alt="ducks on the pond" class="game-img-ducks" />
+    </div>
+  </body>
+</html>
