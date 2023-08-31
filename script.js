@@ -32,7 +32,7 @@ guessBtn.addEventListener("click", function () {
   if (!guess) {
     displayMessage("Please guess a number! 🦆");
   } else if (guess === secretNumber) {
-    displayMessage(`You found ${secretNumber} ducks! 🦆 🦆`);
+    displayMessage(`You found ${secretNumber} ducks! 🦆`);
     img.src = "img/ducks-2.png";
     quack.play();
 
