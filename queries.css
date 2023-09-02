@@ -1,0 +1,25 @@
+@media (max-width: 85rem) {
+  body {
+    background-color: #3a7bd5;
+  }
+  .container {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .header_title {
+    margin-top: 0;
+  }
+
+  .header_subtitle {
+    margin-left: 1rem;
+    text-align: center;
+  }
+
+  .game {
+    flex-direction: column;
+  }
+  .game-right {
+    width: 100%;
+  }
+}

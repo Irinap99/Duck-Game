@@ -10,8 +10,11 @@
   --grey: #eeeded;
 }
 
-body {
+html {
   font-size: 62.5%;
+}
+
+body {
   background-color: var(--blue);
   font-family: "Figtree", sans-serif;
 }
