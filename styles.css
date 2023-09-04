@@ -10,11 +10,8 @@
   --grey: #eeeded;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
+  font-size: 62.5%;
   background-color: var(--blue);
   font-family: "Figtree", sans-serif;
 }
@@ -25,7 +22,7 @@ body {
   margin: 0 auto;
 }
 .header_title {
-  font-size: 2rem;
+  font-size: 2.4rem;
   text-align: center;
   color: var(--white);
   text-transform: uppercase;
@@ -39,6 +36,11 @@ body {
   margin-left: 3rem;
 }
 
+.rules {
+  font-size: 1rem;
+  color: var(--white);
+  margin: 0 3rem;
+}
 .game {
   display: flex;
   justify-content: space-between;
@@ -103,7 +105,7 @@ body {
   display: block;
   max-width: 100%;
   height: 100%;
-  transform: translateY(-5rem);
+  transform: translateY(-7rem);
   overflow: hidden;
   margin-top: 2rem;
 }
