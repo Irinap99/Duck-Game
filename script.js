@@ -23,9 +23,6 @@ const displayMessage = function (message) {
   document.querySelector(".message").textContent = message;
 };
 
-// score.textContent = 13;
-// highScore.textContent = 19;
-
 guessBtn.addEventListener("click", function () {
   const guess = Number(guessNum.value);
 
@@ -60,4 +57,5 @@ againBtn.addEventListener("click", function () {
   score.textContent = currentScore;
   guessNum.value = "";
   img.src = "img/ducks.png";
+  displayMessage(`The ducks are hiding...`);
 });
